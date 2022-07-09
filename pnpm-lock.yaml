@@ -14,7 +14,7 @@ importers:
 
   apps/app:
     specifiers:
-      electron: ^19.0.8
+      electron: 19.0.8
     devDependencies:
       electron: 19.0.8
 
