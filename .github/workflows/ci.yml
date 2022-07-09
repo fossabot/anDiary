@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-      name: Build and Test
+      name: Build
       timeout-minutes: 15
       runs-on: ${{ matrix.os }}
       strategy:
@@ -37,5 +37,5 @@ jobs:
         - name: Build
           run: pnpm build
 
-        - name: Test
-          run: pnpm test
+#         - name: Test
+#           run: pnpm test
