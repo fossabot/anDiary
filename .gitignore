@@ -3,6 +3,9 @@
 # personal
 notes.md
 
+# vs code
+.vscode
+
 # dependencies
 node_modules
 .pnp
