@@ -1,8 +1,13 @@
-name: CI
+name: Desktop App Build
 
 on:
   push:
-    branches: ["main"]
+    branches: 
+      - "main"
+      - "development"
+    paths:
+      - "apps/app"
+      - "packages/andiary-ui"
   pull_request:
     types: [opened, synchronize]
 
@@ -36,6 +41,3 @@ jobs:
 
         - name: Build
           run: pnpm build
-
-#         - name: Test
-#           run: pnpm test
