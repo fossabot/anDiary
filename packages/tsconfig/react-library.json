@@ -3,9 +3,14 @@
   "display": "React Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["ES2015"],
     "module": "ESNext",
-    "target": "ES6",
-    "jsx": "react-jsx"
+    "target": "es2016",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDeclarationOnly": true,
+    "sourceMap": true,
+    "declarationDir": "types",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
   }
 }

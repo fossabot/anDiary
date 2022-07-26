@@ -1,5 +1,9 @@
 > This project is currently under pre-alpha development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
 
+<p align="center">
+<img src="images/logo.png" alt="logo" />
+</p>
+
 <h1 align="center">&iary</h1>
 
 <p align="center">Your personal daily journal app</p>
@@ -38,7 +42,7 @@ You can install the application for your platform from the [downloads page][down
 
 ## Development Setup
 
-Follow these steps to develop this app in your computer:
+Follow these steps to develop this app on your computer:
 
 1. Clone the repository
 
@@ -55,7 +59,7 @@ pnpm dev:app
 
 OR
 
-2. Run web and docs page along with desktop app
+2. Run web and docs page along with the desktop app
 
 ```shell
 pnpm dev
@@ -65,7 +69,7 @@ pnpm dev
 
 ## Running the tests
 
-Run `pnpm test` in the root of the project to start the tests
+Run `pnpm test` at the root of the project to start the tests
 
 ## Deployment
 
@@ -97,7 +101,7 @@ See also the list of [contributors][contributors] who participated in this proje
 - [Help Center][docs]
 - [Public Repository][repo]
 - [Issue Tracker][issues]
-	- In case of sensitive bugs like security vulnerabilities, please contact Naffy Dharni#5103 directly on Discord instead of using issue tracker. We value your effort to improve the security and privacy of this project!
+	- In case of sensitive bugs like security vulnerabilities, please contact Naffy Dharni#5103 directly on Discord instead of using the issue tracker. We value your effort to improve the security and privacy of this project!
 - Related projects:
 	- [Diary Classic][classic-diary]
 	- [Mini Diary](https://github.com/samuelmeuli/mini-diary)
