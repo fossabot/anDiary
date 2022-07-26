@@ -85,6 +85,8 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
+<!-- TODO: Add CONTRIBUTING.md file -->
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository][tags].
