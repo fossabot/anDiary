@@ -1,4 +1,4 @@
-name: Desktop App Build
+name: Build
 
 on:
   push:
@@ -12,13 +12,13 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  build:
-      name: Build
+  build-ui:
+      name: Build UI
       timeout-minutes: 15
       runs-on: ${{ matrix.os }}
       strategy:
         matrix:
-          os: [ubuntu-latest, macos-latest]
+          os: [ubuntu-latest]
 
       steps:
         - name: Check out code
@@ -40,4 +40,33 @@ jobs:
           run: pnpm install
 
         - name: Build
-          run: pnpm build
+          run: pnpm build:ui
+  build-app:
+      name: Build App
+      timeout-minutes: 15
+      runs-on: ${{ matrix.os }}
+      strategy:
+        matrix:
+          os: [ubuntu-latest]
+
+      steps:
+        - name: Check out code
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: 2
+
+        - uses: pnpm/action-setup@v2.2.2
+          with:
+            version: 7.5.0
+
+        - name: Setup Node.js environment
+          uses: actions/setup-node@v3
+          with:
+            node-version: 16
+            cache: 'pnpm'
+
+        - name: Install dependencies
+          run: pnpm install
+
+        - name: Build
+          run: pnpm build:app
