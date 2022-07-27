@@ -36,16 +36,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "andiary-ui",
+  "name": "ui",
   "author": "Naffy Dharni",
-  "module": "dist/andiary-ui.esm.js",
+  "module": "dist/ui.esm.js",
   "size-limit": [
     {
-      "path": "dist/andiary-ui.cjs.production.min.js",
+      "path": "dist/ui.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/andiary-ui.esm.js",
+      "path": "dist/ui.esm.js",
       "limit": "10 KB"
     }
   ],
