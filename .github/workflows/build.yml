@@ -2,70 +2,70 @@ name: Build
 
 on:
   push:
-    branches: 
-      - "main"
+    branches:
+      - 'main'
     paths:
-      - "apps/"
-      - "packages/"
+      - 'apps/'
+      - 'packages/'
   pull_request:
     types: [opened, synchronize]
 
 jobs:
   build-ui:
-      name: Build UI
-      timeout-minutes: 15
-      runs-on: ${{ matrix.os }}
-      strategy:
-        matrix:
-          os: [ubuntu-latest]
+    name: Build UI
+    timeout-minutes: 15
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
 
-      steps:
-        - name: Check out code
-          uses: actions/checkout@v3
-          with:
-            fetch-depth: 2
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
-        - uses: pnpm/action-setup@v2.2.2
-          with:
-            version: 7.5.0
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.5.0
 
-        - name: Setup Node.js environment
-          uses: actions/setup-node@v3
-          with:
-            node-version: 16
-            cache: 'pnpm'
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
 
-        - name: Install dependencies
-          run: pnpm install
+      - name: Install dependencies
+        run: pnpm install
 
-        - name: Build
-          run: pnpm build:ui
+      - name: Build
+        run: pnpm build:ui
   build-app:
-      name: Build App
-      timeout-minutes: 15
-      runs-on: ${{ matrix.os }}
-      strategy:
-        matrix:
-          os: [ubuntu-latest]
+    name: Build App
+    timeout-minutes: 15
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
 
-      steps:
-        - name: Check out code
-          uses: actions/checkout@v3
-          with:
-            fetch-depth: 2
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
-        - uses: pnpm/action-setup@v2.2.2
-          with:
-            version: 7.5.0
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.5.0
 
-        - name: Setup Node.js environment
-          uses: actions/setup-node@v3
-          with:
-            node-version: 16
-            cache: 'pnpm'
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
 
-        - name: Install dependencies
-          run: pnpm install
+      - name: Install dependencies
+        run: pnpm install
 
-        - name: Build
-          run: pnpm build:app
+      - name: Build
+        run: pnpm build:app
