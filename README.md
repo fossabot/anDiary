@@ -1,7 +1,7 @@
 > This project is currently under pre-alpha development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
 
 <p align="center">
-<img src="images/logo.png" alt="logo" />
+<a href="#"><img src="images/logo.png" alt="logo" /></a>
 </p>
 
 <h1 align="center">&iary</h1>
