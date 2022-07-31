@@ -1,6 +1,6 @@
 {
   "name": "andiary",
-  "version": "1.0.0-pre-alpha",
+  "version": "0.1.0-development",
   "private": true,
   "license": "MIT",
   "workspaces": [
