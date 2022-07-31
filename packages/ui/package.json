@@ -4,6 +4,10 @@
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "rollup -c"

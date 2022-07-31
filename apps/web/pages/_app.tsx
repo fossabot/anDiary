@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app'
-// import "andiary-ui/src/components/Button/Button.css"
+import "../styles/global.css"
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
