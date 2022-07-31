@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["custom", "next", "next/core-web-vitals"],
+  extends: ["custom", "next", "next/babel", "next/core-web-vitals"],
 };
