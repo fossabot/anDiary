@@ -1,2 +1,51 @@
-# Minimal config. version is the only required field.
 version = 1
+
+# merge settings
+[merge]
+
+# label for automerge
+automerge_label = "🚀 merge it"
+
+# don't wait for CodeQL analysis workflow check
+dont_wait_on_status_checks = ["codeql-analysis"]
+
+# if a PR is ready, merge it, don't place it in the merge queue.
+prioritize_ready_to_merge = true # default: false
+
+# dependency update PR settings
+[merge.automerge_dependencies]
+
+# only auto merge "minor" version upgrades.
+# do not automerge "major" and "patch" version upgrades.
+versions = ["minor"]
+
+# users from whome dependency request will be auto merged
+usernames = ["renovate"]
+
+[approve]
+# auto approve updates from renovate
+auto_approve_usernames = ["renovate"]
+
+# keep every PR up-to-date with main
+[update]
+
+# whenever the target branch of a PR updates, the PR will update
+always = true # default: false
+
+# label is not required to keep PRs up to date
+require_automerge_label = false # default: true
+
+# PRs from renovate bot will not be updated
+ignored_usernames = ["renovate"]
+
+# merge message settings
+[merge.message]
+
+# title for merging the PR
+title = "pull_request_title" # default: "github_default"
+
+# body for merging the pr
+body = "pull_request_body" # default: "github_default"
+
+# remove html comments to auto remove PR templates.
+strip_html_comments = true # default: false
