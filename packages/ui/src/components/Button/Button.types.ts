@@ -1,7 +1,10 @@
 import { MouseEventHandler } from 'react'
+import PropTypes from 'prop-types'
 
 export interface ButtonProps {
 	text?: string
 	disabled?: boolean
-	size?: 'small' | 'medium' | 'large'
+	size?: typeof PropTypes.oneOf
+	classes?: string
+	onClick?: MouseEventHandler<HTMLButtonElement>
 }
