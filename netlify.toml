@@ -2,5 +2,8 @@
   NODE_VERSION = "14"
   NPM_FLAGS = "--prefix=/dev/null"
 [build]
+  base = "/"
   publish = "./apps/web/.next/"
   command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build --filter web"
+[context.deploy-preview.environment]
+  NODE_ENV = "Preview"
