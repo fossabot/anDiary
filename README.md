@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/github/license/anDiary/anDiary?style=for-the-badge" alt="License">
 </a>
 <a href="https://github.com/anDiary/anDiary/actions">
-<img src="https://img.shields.io/github/workflow/status/anDiary/anDiary/CI?style=for-the-badge" alt="Build">
+<img src="https://img.shields.io/github/workflow/status/anDiary/anDiary/Build?style=for-the-badge" alt="Build">
 </a>
 <a href="https://github.com/anDiary/anDiary/issues">
 <img src="https://img.shields.io/github/issues/anDiary/anDiary?style=for-the-badge" alt="Issues">
@@ -24,11 +24,8 @@
 <a href="https://anDiary.tk">
 <img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2FanDiary.tk" alt="Website">
 </a>
-<a href="https://help.anDiary.tk">
-<img src="https://img.shields.io/website?down_message=Unavailable&label=documentation&style=for-the-badge&up_message=available&url=https%3A%2F%2Fhelp.anDiary.tk" alt="Documentation">
-</a>
-<a href="https://github.com/anDiary/anDiary/commit/main">
-<img src="https://img.shields.io/github/last-commit/anDiary/anDiary?label=Updated&style=for-the-badge" alt="Updated">
+<a href="https://github.com/anDiary/anDiary/blob/main/CODE_OF_CONDUCT.md">
+<img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge" alt="Code Of Conduct">
 </a>
 </p>
 
