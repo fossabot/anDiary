@@ -1,9 +1,0 @@
-{
-  "extends": "tsconfig/react-library.json",
-  "include": ["**/*.ts", "**/*.tsx", "rollup.config.js"],
-  "exclude": [
-		"dist",
-		"node_modules",
-		"src/**/*.test.tsx"
-	]
-}
