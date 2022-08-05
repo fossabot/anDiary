@@ -35,7 +35,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build -- --filter=app
+        run: pnpm build --filter=app
   lint:
     name: Lint
     runs-on: ubuntu-latest
