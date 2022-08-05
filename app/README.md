@@ -16,12 +16,14 @@ pnpm install --shamefully-hoist
 
 ### Use it
 
-**Development mode:**
+**Development Mode:**
 
 ```shell
 $ pnpm run dev
 ```
-```ps1
-# production build
+
+**Production Build:**
+
+```shell
 $ pnpm run build
 ```
