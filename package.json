@@ -10,7 +10,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "eslint .",
+    "lint": "echo \"Eslint not installed yet\"",
     "format": "prettier --write \"**/*.{ts,tsx,md,js}\""
   },
   "devDependencies": {
