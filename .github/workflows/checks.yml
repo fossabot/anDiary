@@ -1,15 +1,39 @@
-name: App
+name: Checks
 
 on:
-  push:
-    branches:
-      - 'main'
-    paths-ignore:
-      - 'docs/**'
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
-  build:
-    name: Build
+  docs:
+    name: Docs
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.6.0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build --filter=docs
+  app:
+    name: App
     timeout-minutes: 15
     runs-on: ubuntu-latest
 
