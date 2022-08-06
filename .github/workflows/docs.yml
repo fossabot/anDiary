@@ -12,7 +12,6 @@ on:
 jobs:
   build:
     name: Build
-    timeout-minutes: 15
     runs-on: ubuntu-latest
 
     steps:
@@ -36,3 +35,38 @@ jobs:
 
       - name: Build
         run: pnpm build --filter=docs
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: build
+          path: docs/build
+
+  commit-build:
+    name: Commit Build
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v2
+        with:
+          ref: website-build
+
+      - name: Configure Git
+        run: |
+          git config --global user.email ${GITHUB_ACTOR}@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
+
+      - name: Download website build
+        uses: actions/download-artifact@v1
+        with:
+          name: build
+          path: docs/build
+
+      - name: Commit and Push
+        run: |
+          if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
+            git add -f public
+            git commit -m "gh-actions deployed a new website build"
+            git push --force https://${GITHUB_ACTOR}:$@github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
+          fi
