@@ -9,3 +9,9 @@
 
 [context.deploy-preview.environment]
   NODE_ENV = "Preview"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs.thresholds]
+    performance = 0.9
