@@ -4,6 +4,6 @@
 [build]
   base = "/"
   publish = "./docs/build/"
-  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build --filter docs"
+  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build --filter=docs"
 [context.deploy-preview.environment]
   NODE_ENV = "Preview"
