@@ -62,7 +62,7 @@ OR
 pnpm dev
 ```
 
-![Screenshot](images/screenshot01.png)
+![Screenshot](plans/home.drawio.svg)
 
 ## Running the tests
 
