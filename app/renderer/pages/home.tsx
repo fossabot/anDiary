@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Home() {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>Home - anDiary</title>
       </Head>
@@ -19,7 +19,7 @@ function Home() {
           <a className='btn-blue'>Log out</a>
         </Link>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 

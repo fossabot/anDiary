@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Register() {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>Register - anDiary</title>
       </Head>
@@ -20,7 +20,7 @@ function Register() {
           <a className='btn-blue'>Login</a>
         </Link>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 
