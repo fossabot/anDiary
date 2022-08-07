@@ -29,6 +29,12 @@
 </a>
 </p>
 
+## Future Preview
+
+<p align="center">
+<img src="plans/home.drawio.svg" alt="Future Preview">
+</p>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -61,8 +67,6 @@ OR
 ```shell
 pnpm dev
 ```
-
-![Screenshot](plans/home.drawio.svg)
 
 ## Running the tests
 
