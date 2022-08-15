@@ -98,7 +98,7 @@ We use [SemVer](http://semver.org/) for versioning. For the available versions, 
 - [Help Center][docs]
 - [Public Repository][repo]
 - [Issue Tracker][issues]
-  - In case of sensitive bugs like security vulnerabilities, please contact Naffy Dharni#5103 directly on Discord instead of using the issue tracker. We value your effort to improve the security and privacy of this project!
+  - In case of sensitive bugs like security vulnerabilities, please contact Naffy Dharni#5103 directly on Discord instead of using the issue tracker. We value your effort to improve the security and privacy of this project.
 - Related projects:
   - [Diary Classic][classic-diary]
   - [Mini Diary](https://github.com/samuelmeuli/mini-diary)
