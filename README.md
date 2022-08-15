@@ -1,7 +1,7 @@
 > This project is currently in development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
 
 <p align="center">
-<a href="#"><img src="images/logo.png" alt="logo" /></a>
+<a href="#"><img src="app/renderer/public/images/logo.png" alt="logo" /></a>
 </p>
 
 <h1 align="center">&iary</h1>
@@ -47,14 +47,14 @@ You can install the application for your platform from the [downloads page][down
 
 Follow these steps to develop this app on your computer:
 
-1. Clone the repository
+Clone the repository
 
 ```shell
 git clone https://github.com/anDiary/anDiary.git
 cd anDiary
 ```
 
-2. Run the desktop app in development mode
+Run anDiary app
 
 ```shell
 pnpm dev:app
@@ -62,10 +62,10 @@ pnpm dev:app
 
 OR
 
-2. Run web and docs page along with the desktop app
+Run documentation app
 
 ```shell
-pnpm dev
+pnpm dev:docs
 ```
 
 ## Running the tests
@@ -74,13 +74,13 @@ Run `pnpm test` at the root of the project to start the tests
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To create a local build, use `pnpm build`
 
 ## Built With
 
-- [Next JS](https://nextjs.org/) - Web App Framework
-- [Electron JS](https://electronjs.org) - Desktop App Framework
-- [Turborepo](https://turborepo.org) - Monorepo Management Tool
+- [Docusaurus](https://docusaurus.io/) - Documentation Framework
+- [Nextron](https://github.com/saltyshiomix/nextron) - Electron App Boilerplate with nextjs
+- [Turborepo](https://turborepo.org/) - Monorepo Management Tool
 
 ## Contributing
 
