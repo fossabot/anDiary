@@ -2,13 +2,14 @@ import Head from "next/head"
 import { FC } from 'react'
 
 interface HeaderProps {
-	title: string
+	name: string
 }
 
-const Header : FC<HeaderProps> = ({title}) => {
+const Header = ({name}: HeaderProps) => {
+	const heading = name + " - anDiary"
 	return <>
 		<Head>
-			<title>{title} - anDiary</title>
+			<title>{heading}</title>
 		</Head>
 	</>
 }
