@@ -92,12 +92,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository][tags].
 
-## Authors
-
-- **Naffy Dharni** - _Initial work_ - [Andiary][andiary]
-
-See also the list of [contributors][contributors] who participated in this project.
-
 ## Links
 
 - [Project Homepage][homepage]
