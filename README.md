@@ -1,7 +1,7 @@
 > This project is currently in development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
 
 <p align="center">
-<a href="#"><img src="app/renderer/public/images/logo.png" alt="logo" /></a>
+<a href="#"><img width="240" src="app/renderer/public/images/logo.png" alt="logo" /></a>
 </p>
 
 <h1 align="center">&iary</h1>
