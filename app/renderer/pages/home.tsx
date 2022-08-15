@@ -1,13 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import React from 'react'
+import Header from '../components/Header'
+import Link from 'next/link'
 
 function Home() {
   return (
     <>
-      <Head>
-        <title>Home - anDiary</title>
-      </Head>
+      <Header title='Home' />
       <div className='grid grid-col-1 text-2xl w-full text-center'>
         <img className='ml-auto mr-auto' src='/images/logo.png' />
         <span>⚡ anDiary ⚡</span>
@@ -20,7 +18,7 @@ function Home() {
         </Link>
       </div>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home

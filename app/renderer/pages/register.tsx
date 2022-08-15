@@ -1,13 +1,11 @@
 import React from 'react';
-import Head from 'next/head';
+import Header from '../components/Header';
 import Link from 'next/link';
 
 function Register() {
   return (
     <>
-      <Head>
-        <title>Register - anDiary</title>
-      </Head>
+      <Header title='Register' />
       <div className='grid grid-col-1 text-2xl w-full text-center'>
         <img className='ml-auto mr-auto' src='/images/logo.png' />
         <span>⚡ Register ⚡</span>
