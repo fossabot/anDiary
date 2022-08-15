@@ -32,7 +32,7 @@
 ## Future Preview
 
 <p align="center">
-<img src="plans/home.drawio.svg" alt="Future Preview">
+<img src="images/home.png" alt="Future Preview">
 </p>
 
 ## Getting Started
