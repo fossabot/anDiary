@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@babel/runtime-corejs3": "7.18.9",
-		"@types/node": "16.11.48",
+		"@types/node": "16.11.49",
 		"@types/react": "18.0.17",
 		"autoprefixer": "10.4.8",
 		"electron": "18.3.8",
