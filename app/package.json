@@ -18,7 +18,7 @@
 		"@types/node": "16.11.49",
 		"@types/react": "18.0.17",
 		"autoprefixer": "10.4.8",
-		"electron": "18.3.8",
+		"electron": "20.0.2",
 		"electron-builder": "23.3.3",
 		"next": "12.2.5",
 		"nextron": "8.1.0",
