@@ -17,7 +17,7 @@ prioritize_ready_to_merge = true # default: false
 
 # only auto merge "minor" version upgrades.
 # do not automerge "major" and "patch" version upgrades.
-versions = ["minor"]
+versions = ["minor", "patch"]
 
 # users from whome dependency request will be auto merged
 usernames = ["renovate"]
