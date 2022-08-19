@@ -1,7 +1,7 @@
 > This project is currently in development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
 
 <p align="center">
-<a href="#"><img src="images/logo.png" alt="logo" /></a>
+<a href="#"><img width="240" src="app/renderer/public/images/logo.png" alt="logo" /></a>
 </p>
 
 <h1 align="center">&iary</h1>
@@ -32,7 +32,7 @@
 ## Future Preview
 
 <p align="center">
-<img src="plans/home.drawio.svg" alt="Future Preview">
+<img src="images/home.png" alt="Future Preview">
 </p>
 
 ## Getting Started
@@ -47,14 +47,14 @@ You can install the application for your platform from the [downloads page][down
 
 Follow these steps to develop this app on your computer:
 
-1. Clone the repository
+Clone the repository
 
 ```shell
 git clone https://github.com/anDiary/anDiary.git
 cd anDiary
 ```
 
-2. Run the desktop app in development mode
+Run anDiary app
 
 ```shell
 pnpm dev:app
@@ -62,10 +62,10 @@ pnpm dev:app
 
 OR
 
-2. Run web and docs page along with the desktop app
+Run documentation app
 
 ```shell
-pnpm dev
+pnpm dev:docs
 ```
 
 ## Running the tests
@@ -74,13 +74,13 @@ Run `pnpm test` at the root of the project to start the tests
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To create a local build, use `pnpm build`
 
 ## Built With
 
-- [Next JS](https://nextjs.org/) - Web App Framework
-- [Electron JS](https://electronjs.org) - Desktop App Framework
-- [Turborepo](https://turborepo.org) - Monorepo Management Tool
+- [Docusaurus](https://docusaurus.io/) - Documentation Framework
+- [Nextron](https://github.com/saltyshiomix/nextron) - Electron App Boilerplate with nextjs
+- [Turborepo](https://turborepo.org/) - Monorepo Management Tool
 
 ## Contributing
 
@@ -92,19 +92,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository][tags].
 
-## Authors
-
-- **Naffy Dharni** - _Initial work_ - [Andiary][andiary]
-
-See also the list of [contributors][contributors] who participated in this project.
-
 ## Links
 
 - [Project Homepage][homepage]
 - [Help Center][docs]
 - [Public Repository][repo]
 - [Issue Tracker][issues]
-  - In case of sensitive bugs like security vulnerabilities, please contact Naffy Dharni#5103 directly on Discord instead of using the issue tracker. We value your effort to improve the security and privacy of this project!
+  - In case of sensitive bugs like security vulnerabilities, please contact Naffy Dharni#5103 directly on Discord instead of using the issue tracker. We value your effort to improve the security and privacy of this project.
 - Related projects:
   - [Diary Classic][classic-diary]
   - [Mini Diary](https://github.com/samuelmeuli/mini-diary)

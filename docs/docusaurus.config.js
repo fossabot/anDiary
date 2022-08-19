@@ -7,10 +7,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'anDiary',
-  tagline: 'Let\'s write a journal',
+  tagline: 'Store all your memories in a safe place',
   url: 'https://anDiary.tk',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -59,8 +59,8 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'right',
+            docId: 'getting-started',
+            pdosition: 'right',
             label: 'Getting Started',
           },
           {
