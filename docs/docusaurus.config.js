@@ -10,7 +10,7 @@ const config = {
   tagline: 'Store all your memories in a safe place',
   url: 'https://anDiary.tk',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
