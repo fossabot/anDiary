@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/download">
-            Download Now
+            Download for Windows
           </Link>
         </div>
       </div>
@@ -29,11 +29,11 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title="Download"
       description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
-        Hello people 👋
+        Here is the list of available versions:
       </main>
     </Layout>
   );
