@@ -39,7 +39,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: build
+          name: build-next
           path: docs/build
 
   commit-build:
@@ -60,7 +60,7 @@ jobs:
       - name: Download website build
         uses: actions/download-artifact@v3
         with:
-          name: build
+          name: build-next
           path: /
 
       - name: Commit and Push
