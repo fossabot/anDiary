@@ -61,7 +61,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build-next
-          path: /
+          path: build
 
       - name: Commit and Push
         run: |
