@@ -8,14 +8,16 @@ function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext()
 	return (
 		<>
-			<div className="hero min-h-screen bg-base-200">
+			<div className="hero min-h-screen bg-primary text-primary-content">
 				<div className="hero-content text-center">
 					<div className="max-w-md">
 						<h1 className="text-5xl font-bold">{siteConfig.title}</h1>
 						<p className="py-6">
 							{siteConfig.tagline}
 						</p>
-						<button className="btn btn-primary">Get Started</button>
+						<button className={clsx("btn bg-transparent border border-primary-content",
+						"hover:bg-primary-content hover:border-primary hover:text-primary",
+						"")}>Get Started</button>
 					</div>
 				</div>
 			</div>
@@ -30,7 +32,7 @@ export default function Home(): JSX.Element {
 			title={`Hello from ${siteConfig.title}`}
 			description={siteConfig.tagline}>
 			<HomepageHeader />
-			<main>Hello people 👋</main>
+			<main className="container mx-auto p-5">Hello people 👋</main>
 		</Layout>
 	)
 }
