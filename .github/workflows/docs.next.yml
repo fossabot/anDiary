@@ -1,13 +1,13 @@
-name: Docs
+# This workflow is only for pushes on branch 'next'
+
+name: Docs Next
 
 on:
   push:
     branches:
-      - 'main'
-      - 'next'
-      - 'next-docs'
-    paths_ignore:
-      - 'app/**'
+      - "next"
+    paths-ignore:
+      - "app/**"
 
 jobs:
   build:
@@ -22,13 +22,13 @@ jobs:
 
       - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 7.6.0
+          version: 7.9.0
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install
@@ -50,7 +50,7 @@ jobs:
       - name: Clone the repository
         uses: actions/checkout@v3
         with:
-          ref: website-build
+          ref: website-build-next
 
       - name: Configure Git
         run: |
@@ -61,12 +61,11 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build
-          path: build
+          path: /
 
       - name: Commit and Push
         run: |
           if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
             git add -f build
-            git commit -m "gh-actions deployed a new website build"
-            git push --force https://github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
-          fi
+            git commit -m "deployed a new website build for the branch `next`"
+            git push --force https://github.com/${GITHUB_REPOSITORY}.git HEAD:website-build-next

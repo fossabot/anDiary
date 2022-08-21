@@ -1,0 +1,72 @@
+# This workflow is only for pushes on branch 'main'
+
+name: Docs
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths-ignore:
+      - 'app/**'
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.9.0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build --filter=docs
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: docs/build
+
+  commit-build:
+    name: Commit Build
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v3
+        with:
+          ref: website-build
+
+      - name: Configure Git
+        run: |
+          git config --global user.email ${GITHUB_ACTOR}@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
+
+      - name: Download website build
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: /
+
+      - name: Commit and Push
+        run: |
+          if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
+            git add -f build
+            git commit -m "eployed a new website build on production"
+            git push --force https://github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
+          fi
