@@ -4,12 +4,12 @@ This guide will explain to you the steps to produce a local copy of anDiary and 
 
 ## Prerequisites 
 
-- [Node.js](https://hh.gg)
-- [Pnpm](https://hh.gg) 
+- [Node.js](https://nodejs.org/)
+- [Pnpm](https://pnpm.io/installation) 
 
 ## Downloading the repo 
 
-1. [Fork this repo]()
+1. [Fork this repo](https://github.com/anDiary/anDiary/fork)
 2. Clone it to your machine
   Use these commands in your terminal (powershell, bash or cmd) 
 
