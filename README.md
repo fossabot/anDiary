@@ -39,42 +39,13 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Installing
+### Installing
 
 You can install the application for your platform from the [downloads page][download]
 
-## Development Setup
+### Development Setup
 
-Follow these steps to develop this app on your computer:
-
-Clone the repository
-
-```shell
-git clone https://github.com/anDiary/anDiary.git
-cd anDiary
-```
-
-Run anDiary app
-
-```shell
-pnpm dev:app
-```
-
-OR
-
-Run documentation app
-
-```shell
-pnpm dev:docs
-```
-
-## Running the tests
-
-Run `pnpm test` at the root of the project to start the tests
-
-## Deployment
-
-To create a local build, use `pnpm build`
+Follow the steps in [DEVELOPMENT.md](./.github/DEVELOPMENT.md)
 
 ## Built With
 
