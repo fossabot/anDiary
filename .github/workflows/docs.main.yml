@@ -1,12 +1,12 @@
+# This workflow is only for pushes on branch 'main'
+
 name: Docs
 
 on:
   push:
     branches:
       - 'main'
-      - 'next'
-      - 'next-docs'
-    paths_ignore:
+    paths-ignore:
       - 'app/**'
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
 
       - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 7.6.0
+          version: 7.9.0
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
@@ -67,6 +67,6 @@ jobs:
         run: |
           if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
             git add -f build
-            git commit -m "gh-actions deployed a new website build"
+            git commit -m "eployed a new website build on production"
             git push --force https://github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
           fi
