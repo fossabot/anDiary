@@ -13,7 +13,7 @@ importers:
   app:
     specifiers:
       '@babel/runtime-corejs3': 7.18.9
-      '@types/node': 16.11.53
+      '@types/node': 16.11.54
       '@types/react': 18.0.17
       autoprefixer: 10.4.8
       electron: 20.0.3
@@ -32,7 +32,7 @@ importers:
       electron-store: 8.1.0
     devDependencies:
       '@babel/runtime-corejs3': 7.18.9
-      '@types/node': 16.11.53
+      '@types/node': 16.11.54
       '@types/react': 18.0.17
       autoprefixer: 10.4.8_postcss@8.4.16
       electron: 20.0.3
@@ -3839,8 +3839,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node/16.11.53:
-    resolution: {integrity: sha512-3yJerjVV8GlGSWCjEPal2cDymbQEE/1bhUr1NdW5apDPZo6EjBaqHxR7AC4wKmZ24Hzqcz+tgJyAGe9qcGHw7w==}
+  /@types/node/16.11.54:
+    resolution: {integrity: sha512-ryOpwe15+BtTUxKFfzABjaI/EtXLPBSBEW4B6D5ygWNcORLVKG/1/FC3WwAr5d7t6lCnlVPRsCY0NH680QT+Pg==}
     dev: true
 
   /@types/node/17.0.45:
@@ -6790,7 +6790,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@electron/get': 1.14.1
-      '@types/node': 16.11.53
+      '@types/node': 16.11.54
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
