@@ -16,7 +16,7 @@ importers:
       '@types/node': 16.11.56
       '@types/react': 18.0.17
       autoprefixer: 10.4.8
-      electron: 20.0.3
+      electron: 20.1.0
       electron-builder: 23.3.3
       electron-serve: ^1.1.0
       electron-store: ^8.0.1
@@ -35,7 +35,7 @@ importers:
       '@types/node': 16.11.56
       '@types/react': 18.0.17
       autoprefixer: 10.4.8_postcss@8.4.16
-      electron: 20.0.3
+      electron: 20.1.0
       electron-builder: 23.3.3
       next: 12.2.5_biqbaboplfbrettd7655fr4n2y
       nextron: 8.1.0
@@ -6783,8 +6783,8 @@ packages:
   /electron-to-chromium/1.4.211:
     resolution: {integrity: sha512-BZSbMpyFQU0KBJ1JG26XGeFI3i4op+qOYGxftmZXFZoHkhLgsSv4DHDJfl8ogII3hIuzGt51PaZ195OVu0yJ9A==}
 
-  /electron/20.0.3:
-    resolution: {integrity: sha512-Yx0a/SGgus/XqDAoMMs165JUikgE5vBmQpNJ+0XMDG/IYFj6TNNzfY2ATI+t171JjhKKO+MYPO8xqyZdFRoIDw==}
+  /electron/20.1.0:
+    resolution: {integrity: sha512-gzl6fdZe5g0qmzCC6Ejxa1Oa8eqUSxs4+QLtrM7SyEVp+mEPJAOoDe0xD8ayRQqeXTBxLK1LFrKtc4c98iufsg==}
     engines: {node: '>= 10.17.0'}
     hasBin: true
     requiresBuild: true
