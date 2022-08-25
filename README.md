@@ -49,6 +49,14 @@ You can simply install the application for your platform from the [downloads pag
 
 If you want to contribute to anDiary or get a local copy running, please see the instructions in [CONTRIBUTING.md](./.github/CONTRIBUTING.md). To get started, look at the list of [good first issues](https://github.com/anDiary/anDiary/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
+## Security / Disclosure
+
+If you find any bug with Renovate that may be a security problem, then e-mail us at: anDiary@hotmail.com.
+
+This way we can evaluate the bug and hopefully fix it before it gets abused. Please give us enough time to investigate the bug before you report it anywhere else.
+
+Please do not create GitHub issues for security-related doubts or problems.
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository][tags].
