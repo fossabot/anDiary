@@ -63,6 +63,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository][tags].
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ## Links
 
 - [Project Homepage][homepage]
@@ -73,10 +77,6 @@ We use [SemVer](http://semver.org/) for versioning. For the available versions, 
 - Related projects:
   - [Diary Classic][classic-diary]
   - [Mini Diary](https://github.com/samuelmeuli/mini-diary)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 <!-- * Hat tip to anyone whose code was used
 ## Acknowledgments
