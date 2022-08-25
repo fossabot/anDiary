@@ -1,5 +1,3 @@
-> This project is currently in development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
-
 <p align="center">
 <a href="#"><img width="240" src="app/renderer/public/images/logo.png" alt="logo" /></a>
 </p>
@@ -35,17 +33,11 @@
 <img src="images/home.png" alt="Future Preview">
 </p>
 
+> This project is currently a work in progress. If you have any ideas, join our [Discord][discord] and discuss with us.
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Installing
-
-You can install the application for your platform from the [downloads page][download]
-
-### Development Setup
-
-Follow the steps in [DEVELOPMENT.md](./.github/DEVELOPMENT.md)
+You can simply install the application for your platform from the [downloads page][download]. For local development, see [Contributing](#contributing)
 
 ## Built With
 
@@ -55,13 +47,23 @@ Follow the steps in [DEVELOPMENT.md](./.github/DEVELOPMENT.md)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+If you want to contribute to anDiary or get a local copy running, please see the instructions in [CONTRIBUTING.md](./.github/CONTRIBUTING.md). To get started, look at the list of [good first issues](https://github.com/anDiary/anDiary/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
-<!-- TODO: Add CONTRIBUTING.md file -->
+## Security / Disclosure
+
+If you find any bug with Renovate that may be a security problem, then e-mail us at: anDiary@hotmail.com.
+
+This way we can evaluate the bug and hopefully fix it before it gets abused. Please give us enough time to investigate the bug before you report it anywhere else.
+
+Please do not create GitHub issues for security-related doubts or problems.
 
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository][tags].
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Links
 
@@ -74,17 +76,12 @@ We use [SemVer](http://semver.org/) for versioning. For the available versions, 
   - [Diary Classic][classic-diary]
   - [Mini Diary](https://github.com/samuelmeuli/mini-diary)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+<!-- * Hat tip to anyone whose code was used
 ## Acknowledgments
-
-<!-- * Hat tip to anyone whose code was used -->
 
 - Inspiration - [Mini Diary](https://github.com/samuelmeuli/mini-diary)
 - Guides: - [Stackoverflow](https://stackoverflow.com)
-<!-- * etc -->
+* etc -->
 
 [homepage]: https://anDiary.tk
 [download]: https://anDiary.tk/download
