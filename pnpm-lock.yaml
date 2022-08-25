@@ -13,10 +13,10 @@ importers:
   app:
     specifiers:
       '@babel/runtime-corejs3': 7.18.9
-      '@types/node': 16.11.52
+      '@types/node': 16.11.56
       '@types/react': 18.0.17
       autoprefixer: 10.4.8
-      electron: 20.0.3
+      electron: 20.1.0
       electron-builder: 23.3.3
       electron-serve: ^1.1.0
       electron-store: ^8.0.1
@@ -32,10 +32,10 @@ importers:
       electron-store: 8.1.0
     devDependencies:
       '@babel/runtime-corejs3': 7.18.9
-      '@types/node': 16.11.52
+      '@types/node': 16.11.56
       '@types/react': 18.0.17
       autoprefixer: 10.4.8_postcss@8.4.16
-      electron: 20.0.3
+      electron: 20.1.0
       electron-builder: 23.3.3
       next: 12.2.5_biqbaboplfbrettd7655fr4n2y
       nextron: 8.1.0
@@ -3839,8 +3839,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node/16.11.52:
-    resolution: {integrity: sha512-GnstYouCa9kbYokBCWEVrszJ1P2rGAQpKrqACHKuixkaT8XGu8nsqHvEUIGqDs5vwtsJ7LrYqnPDKRD1V+M39A==}
+  /@types/node/16.11.56:
+    resolution: {integrity: sha512-aFcUkv7EddxxOa/9f74DINReQ/celqH8DiB3fRYgVDM2Xm5QJL8sl80QKuAnGvwAsMn+H3IFA6WCrQh1CY7m1A==}
     dev: true
 
   /@types/node/17.0.45:
@@ -6783,14 +6783,14 @@ packages:
   /electron-to-chromium/1.4.211:
     resolution: {integrity: sha512-BZSbMpyFQU0KBJ1JG26XGeFI3i4op+qOYGxftmZXFZoHkhLgsSv4DHDJfl8ogII3hIuzGt51PaZ195OVu0yJ9A==}
 
-  /electron/20.0.3:
-    resolution: {integrity: sha512-Yx0a/SGgus/XqDAoMMs165JUikgE5vBmQpNJ+0XMDG/IYFj6TNNzfY2ATI+t171JjhKKO+MYPO8xqyZdFRoIDw==}
+  /electron/20.1.0:
+    resolution: {integrity: sha512-gzl6fdZe5g0qmzCC6Ejxa1Oa8eqUSxs4+QLtrM7SyEVp+mEPJAOoDe0xD8ayRQqeXTBxLK1LFrKtc4c98iufsg==}
     engines: {node: '>= 10.17.0'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@electron/get': 1.14.1
-      '@types/node': 16.11.52
+      '@types/node': 16.11.56
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
