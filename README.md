@@ -37,15 +37,7 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Installing
-
-You can install the application for your platform from the [downloads page][download]
-
-### Development Setup
-
-Follow the steps in [DEVELOPMENT.md](./.github/DEVELOPMENT.md)
+You can simply install the application for your platform from the [downloads page][download]. For local development, see [Contributing](#contributing)
 
 ## Built With
 
