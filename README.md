@@ -78,13 +78,12 @@ We use [SemVer](http://semver.org/) for versioning. For the available versions, 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+<!-- * Hat tip to anyone whose code was used
 ## Acknowledgments
-
-<!-- * Hat tip to anyone whose code was used -->
 
 - Inspiration - [Mini Diary](https://github.com/samuelmeuli/mini-diary)
 - Guides: - [Stackoverflow](https://stackoverflow.com)
-<!-- * etc -->
+* etc -->
 
 [homepage]: https://anDiary.tk
 [download]: https://anDiary.tk/download
