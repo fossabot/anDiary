@@ -55,9 +55,7 @@ Follow the steps in [DEVELOPMENT.md](./.github/DEVELOPMENT.md)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-<!-- TODO: Add CONTRIBUTING.md file -->
+Please read [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
