@@ -1,5 +1,3 @@
-> This project is currently in development stage. If you have any ideas, join our [Discord][discord] and discuss with us.
-
 <p align="center">
 <a href="#"><img width="240" src="app/renderer/public/images/logo.png" alt="logo" /></a>
 </p>
@@ -34,6 +32,8 @@
 <p align="center">
 <img src="images/home.png" alt="Future Preview">
 </p>
+
+> This project is currently a work in progress. If you have any ideas, join our [Discord][discord] and discuss with us.
 
 ## Getting Started
 
