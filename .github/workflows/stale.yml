@@ -1,0 +1,21 @@
+name: 'Close stale issues and PRs'
+author: 'Github'
+
+on:
+  schedule:
+    - cron: '59 23 1,6,11,16,21,26 * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v5
+        with:
+          stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this issue will be closed in 5 days.'
+          stale-pr-message: 'This PR is stale because it has been open 30 days with no activity. Remove stale label or comment or this pr will be closed in 5 days.'
+          days-before-stale: 30
+          days-before-close: 5
+          stale-issue-label: 'type: stale'
+          stale-pr-label: 'type: stale'
+          exempt-pr-label: 'by: renovate, by: anDiary team'
+          exempt-issue-label: 'by: renovate, by: anDiary team'
