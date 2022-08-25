@@ -47,7 +47,7 @@ You can simply install the application for your platform from the [downloads pag
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+If you want to contribute to anDiary or get a local copy running, please see the instructions in [CONTRIBUTING.md](./.github/CONTRIBUTING.md). To get started, look at the list of [good first issues](https://github.com/anDiary/anDiary/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 ## Versioning
 
