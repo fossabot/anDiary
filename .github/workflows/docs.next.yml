@@ -1,6 +1,6 @@
 # This workflow is only for pushes on branch 'next'
 
-name: Docs
+name: Docs Next
 
 on:
   push:

@@ -67,6 +67,6 @@ jobs:
         run: |
           if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
             git add -f build
-            git commit -m "eployed a new website build on production"
+            git commit -m "deployed a new website build on production"
             git push --force https://github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
           fi
