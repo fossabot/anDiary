@@ -25,6 +25,7 @@
 <a href="https://github.com/anDiary/anDiary/blob/main/CODE_OF_CONDUCT.md">
 <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge" alt="Code Of Conduct">
 </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FanDiary%2FanDiary?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FanDiary%2FanDiary.svg?type=shield"/></a>
 </p>
 
 ## Future Preview
@@ -64,6 +65,9 @@ We use [SemVer](http://semver.org/) for versioning. For the available versions, 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FanDiary%2FanDiary.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FanDiary%2FanDiary?ref=badge_large)
 
 ## Links
 
